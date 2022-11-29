@@ -54,16 +54,22 @@ h1, h2 {font-family: Overskrift;}
 
 p, figcaption {font-family: Brødtekst;}
 
+body {
+    background-color: black;
+}
 video {
-    width: 100%;
-    height: auto;
-    display: block;
-    aspect-ratio: 16/9;
+    width: 1000px;
+    height: 600px;
+    margin-left: 250px;
 }
 
 iframe {
-    width: 100%;
-    height: auto;
+    width: 1000px;
+    height: 600px;
+    margin-left: 250px;
+}
 
-    aspect-ratio: 19/9;
+h1, p {
+    color: white;
+    margin-top: 100px;
 }
